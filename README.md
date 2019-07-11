@@ -10,9 +10,29 @@
 
 #### 编码环境
 
-1. win10系统下编写
-2. IDE编译器
+1. Win10系统下编写
+2. Ide编译器
 3. Maven 管理工具
 4. git代码管理
 
 #### 项目依赖库
+
+1. Thymeleaf Spring Boot 官方推荐模板引擎。Thymeleaf是一种用于Web和独立环境的现代服务端的Java模板引擎。Thymeleaf能够处理HTML，XML，JavaScript，CSS甚至纯文本 
+
+```xml
+ <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-thymeleaf</artifactId>
+ </dependency>
+```
+
+```xml
+ <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+ </dependency>
+```
+#### 资料
+
+[前端框架 Bootstrap ](https://v3.bootcss.com)
+
