@@ -40,5 +40,5 @@
 
 #### 流程图
 
-![[GitHub授权流程图](\blog\GitHub授权.PNG)](F:\IdeaProjects\blog\GitHub授权.PNG)
+![[GitHub授权流程图]blog\GitHub授权.PNG)](F:\IdeaProjects\blog\GitHub授权.PNG)
 
