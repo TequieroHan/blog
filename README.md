@@ -40,5 +40,5 @@
 
 #### 流程图
 
-![[GitHub授权流程图](https://github.com/TequieroHan/blog/blob/master/GitHub%E6%8E%88%E6%9D%83.PNG)](F:\IdeaProjects\blog\GitHub授权.PNG)
+![[GitHub授权流程图](\blog\GitHub授权.PNG)](F:\IdeaProjects\blog\GitHub授权.PNG)
 
