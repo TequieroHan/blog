@@ -40,4 +40,4 @@
 
 #### 流程图
 
-GitHUb授权登录图 image(![](C:\Users\VULCAN\Desktop\GitHub授权.PNG))
+![GitHUb授权登录图](F:\IdeaProjects\blog\GitHub授权.PNG) 
