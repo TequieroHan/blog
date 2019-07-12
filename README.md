@@ -32,7 +32,12 @@
       <artifactId>spring-boot-starter-web</artifactId>
  </dependency>
 ```
+
+
 #### 资料
 
 [前端框架 Bootstrap ](https://v3.bootcss.com)
 
+#### 流程图
+
+GitHUb授权登录图 image(![](C:\Users\VULCAN\Desktop\GitHub授权.PNG))
