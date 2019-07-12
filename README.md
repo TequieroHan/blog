@@ -40,4 +40,9 @@
 
 #### 流程图
 
-![GitHUb授权登录图](F:\IdeaProjects\blog\GitHub授权.PNG) 
+![GitHUb授权登录图](
+
+[https://github.com/TequieroHan/blog/blob/master/GitHub%E6%8E%88%E6%9D%83.PNG]: F:\IdeaProjects\blog\GitHub授权.PNG
+
+) 
+
