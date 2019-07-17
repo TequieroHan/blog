@@ -1,6 +1,6 @@
 package com.myong.blog.dto;
 
-public class UserDTO {
+public class GitHubUserDTO {
     private String id;
     private String avatar_url;//头像
     private String name;//昵称
@@ -8,7 +8,7 @@ public class UserDTO {
 
     @Override
     public String toString() {
-        return "UserDTO{" +
+        return "GitHubUserDTO{" +
                 "id='" + id + '\'' +
                 ", avatar_url='" + avatar_url + '\'' +
                 ", name='" + name + '\'' +
