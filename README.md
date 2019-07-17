@@ -42,3 +42,10 @@
 
 ![[GitHub授权流程图](F:\IdeaProjects\blog\GitHub授权.PNG)](https://github.com/TequieroHan/blog/blob/master/GitHub授权.PNG)
 
+```hxml
+https://github.com/login/oauth/authorize?登陆跳转到授权页面 
+client_id=bbe5cbd333ddc89ed1cc&
+redirect_uri=http://127.0.0.1:8081/callback/& 回调uri
+scope=user& 返回 user信息
+state=1
+```
