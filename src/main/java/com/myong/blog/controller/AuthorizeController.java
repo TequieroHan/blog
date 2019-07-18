@@ -42,12 +42,9 @@ public class AuthorizeController {
         tokenDTO.setCode(code);
         tokenDTO.setRedirect_uri(redirectURI);
         tokenDTO.setState(state);
-        System.out.printf("\nAccessTokenDTO =\n"+tokenDTO.toString());
         String accessToken = authorizeProvider.getAccessToken(tokenDTO);
         String access_token = accessToken.split("&")[0].split("=")[1];
-        System.out.printf("\naccess_token =\n"+access_token);
         GitHubUserDTO user = authorizeProvider.getUser(access_token);
-        System.out.printf("\nuser =\n"+user.toString());
         if (user != null) {
             //.setAttribute("user",user)
             //登陆成功 在html页面获取信息 session.user

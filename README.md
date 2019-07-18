@@ -32,7 +32,22 @@
       <artifactId>spring-boot-starter-web</artifactId>
  </dependency>
 ```
-
+2.FastJson 是一个JAVA编写的高性能JSON库
+```xml
+<dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.55</version>
+</dependency>
+```
+3.okhttp 是轻量级的第三方网络访问框架。支持同步和异步请求。
+```xml
+<dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.0.1</version>
+</dependency>
+```
 
 #### 资料
 
@@ -42,10 +57,11 @@
 
 ![[GitHub授权流程图](F:\IdeaProjects\blog\GitHub授权.PNG)](https://github.com/TequieroHan/blog/blob/master/GitHub授权.PNG)
 
-```hxml
+```haml
 https://github.com/login/oauth/authorize?登陆跳转到授权页面 
 client_id=bbe5cbd333ddc89ed1cc&
 redirect_uri=http://127.0.0.1:8081/callback/& 回调uri
 scope=user& 返回 user信息
 state=1
 ```
+
