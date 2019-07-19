@@ -49,6 +49,35 @@
 </dependency>
 ```
 
+4.数据库
+    4.1.MyBatis-Spring-Boot-Starter 
+        优势：建立独立的模块;减少代码量;减少XML的配置
+        ```xml
+         <dependency>
+             <groupId>org.mybatis.spring.boot</groupId>
+             <artifactId>mybatis-spring-boot-starter</artifactId>
+             <version>2.1.0</version>
+         </dependency>
+        ```
+    4.2 h2
+        特别小;开源;内存数据库;浏览器独立应用程序
+        ```xml
+            <dependency>
+                  <groupId>com.h2database</groupId>
+                  <artifactId>h2</artifactId>
+                  <version>1.4.199</version>
+             </dependency>
+        ```
+    4.3 spring-boot-starter-data-jpa
+        提供持久化的标准
+        ```xml
+         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+         </dependency>
+        ```
+        
+
 #### 资料
 
 [前端框架 Bootstrap ](https://v3.bootcss.com)
